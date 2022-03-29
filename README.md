@@ -1,8 +1,11 @@
 # Overview
 
-This project its a github profile search based in React.js and usign the Github API to search the profiles, I recently included theme feature too!
+This project its a github profile search based in React.js and usign the Github API to search the profiles, repos and starred.
 
-Check this video with the solution: https://vimeo.com/617554913/d74c508ca4
+Check this video with the solution: 
+https://user-images.githubusercontent.com/51058377/160602484-d02fd167-0668-425d-a75b-3e55a9f8d950.mov
+
+
 
 # Getting Started with Create React App
 
