@@ -1,4 +1,3 @@
-import './styles.scss';
 import React, { useState } from 'react';
 import api from '../../services/api';
 import { FaBook, FaMapMarkerAlt, FaRegStar, FaLock, FaLockOpen } from "react-icons/fa";
