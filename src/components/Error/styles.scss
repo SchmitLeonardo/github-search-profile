@@ -1,0 +1,27 @@
+@import "colors";
+
+.no-data {
+    p:nth-child(1) {
+        color: $text-black;
+    }
+
+    p {
+        color: $text-deep-grey;
+    }
+}
+
+.no-data {
+    @include column--centered;
+
+    p:nth-child(1) {
+        font-size: 18px;
+        color: $text-light-grey;
+        line-height: 0.9;
+    }
+
+    p {
+        font-size: 14px;
+        color: $text-deep-grey;
+        line-height: 0.9;
+    }
+}
