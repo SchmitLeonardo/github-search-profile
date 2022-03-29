@@ -1,0 +1,13 @@
+@import "colors";
+
+.button {
+    color: $text-light-grey;
+    padding: 5px 10px;
+    border: .5px solid $text-light-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $navbar-color-dark;
+    cursor: pointer;
+    font-size: 20px;
+}

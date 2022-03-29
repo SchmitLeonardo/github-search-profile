@@ -1,0 +1,60 @@
+@import "colors";
+
+.header {
+  background-color: $navbar-color-dark;
+  padding: 20px;
+  width: 100%;
+  float: inline-start;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: $text-light-grey;
+  display: flex;
+  font-size: 16px;
+
+  .header__title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: $text-light-grey;
+    font-size: 26px;
+  }
+
+  .header__item {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .header__icon {
+      height: 15px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .header__item:nth-child(3) {
+    margin: 0px 0px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    @include column--centered;
+
+    .header__input {
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+    }
+
+    .header__title {
+      justify-content: center;
+      margin-left: 0px;
+    }
+  }
+}

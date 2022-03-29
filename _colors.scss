@@ -1,0 +1,27 @@
+// System Colors
+
+// Background colors
+$background-color-dark: #292a32;
+$navbar-color-dark: #2d333b;
+$background-color-light: #fff;
+$navbar-color-light: #f3f4f6;
+
+// Font colors
+$text-light-grey: #adbac7;
+$text-deep-grey: #606a76;
+$text-black: #24292f;
+
+// Mixins
+@mixin column--centered() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+
+@mixin row--centered() {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
