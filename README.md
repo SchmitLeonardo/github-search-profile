@@ -3,7 +3,10 @@
 This project its a github profile search based in React.js and usign the Github API to search the profiles, repos and starred.
 
 Check this video with the solution: 
-https://user-images.githubusercontent.com/51058377/160602484-d02fd167-0668-425d-a75b-3e55a9f8d950.mov
+
+https://user-images.githubusercontent.com/51058377/160605640-136c049c-b059-4dcb-84b7-755d6239e3a0.mov
+
+https://drive.google.com/file/d/1CieZhgQmwRBLKooNyd-BWFCCQ4TROTT2/view?usp=sharing
 
 
 
