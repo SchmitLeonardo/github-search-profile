@@ -1,0 +1,13 @@
+@import "colors";
+
+.search {
+    .search__input {
+      background-color: $navbar-color-light;
+      border: 1px solid $text-black;
+      color: $text-black;
+
+      &::placeholder {
+        color: $text-black;
+      }
+    }
+  }
